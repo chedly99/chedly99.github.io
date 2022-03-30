@@ -13,11 +13,9 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-          Hello! My name is Mohamed Chedly, and I'm a Tunisia-based software engineering student.
-          I am a Designer / Full Stack Developer. Innovation is my passion, and i am really interested in the internet culture 
-          and weeb cool stuff.
+          J'aime le sex dans les 5reb
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={() => window.location = 'https://mohamed.chedliiy@gmail.com'}>Learn More</Button>
       </LeftSection>
     </Section>
   </>

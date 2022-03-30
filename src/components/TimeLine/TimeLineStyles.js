@@ -8,7 +8,7 @@ export const CarouselContainer = styled.ul`
   list-style:none;
   display: flex;
   justify-content: space-between; 
-  /* overflow-x: hidden; */
+   overflow-x: hidden; 
 
   margin-left: 32px;
   &:first-of-type{
@@ -70,7 +70,7 @@ export const CarouselItemTitle = styled.h4`
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
-  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
+  
   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -152,3 +152,4 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+
