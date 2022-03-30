@@ -13,7 +13,9 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          Hello! My name is Mohamed Chedly, and I'm a Tunisia-based software engineering student.
+          I am a Designer / Full Stack Developer. Innovation is my passion, and i am really interested in the internet culture 
+          and weeb cool stuff.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
